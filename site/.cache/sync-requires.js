@@ -8,7 +8,8 @@ exports.components = {
   "component---src-templates-product-js": hot(preferDefault(require("/Users/tikken/Sites/printers/site/src/templates/product.js"))),
   "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/tikken/Sites/printers/site/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/tikken/Sites/printers/site/src/pages/404.js"))),
+  "component---src-pages-page-2-js": hot(preferDefault(require("/Users/tikken/Sites/printers/site/src/pages/page-2.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/tikken/Sites/printers/site/src/pages/index.js"))),
-  "component---src-pages-page-2-js": hot(preferDefault(require("/Users/tikken/Sites/printers/site/src/pages/page-2.js")))
+  "component---src-pages-catalog-js": hot(preferDefault(require("/Users/tikken/Sites/printers/site/src/pages/catalog.js")))
 }
 
