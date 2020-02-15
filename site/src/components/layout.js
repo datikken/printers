@@ -12,6 +12,8 @@ import Header from "./header/header"
 import Menu from "./menu/menu"
 
 import Footer from "./footer/footer"
+import Payments from "./footer/payments"
+
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -21,6 +23,7 @@ const Layout = ({ children }) => {
       <Menu/>
       <main>{children}</main>
       <Footer/>
+      <Payments/>
     </>
   )
 }
