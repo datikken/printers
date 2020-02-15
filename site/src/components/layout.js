@@ -7,9 +7,10 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header/header"
+import Menu from "./menu/menu"
+
 import Footer from "./footer/footer"
 import "./layout.css"
 
@@ -17,6 +18,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle="test" />
+      <Menu/>
       <main>{children}</main>
       <Footer/>
     </>

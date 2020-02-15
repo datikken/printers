@@ -187,7 +187,6 @@
         &_icon {
           width: 31px;
           height: 31px;
-          background-image: url("/img/menu/cart.svg");
           margin-left: 20px;
           cursor: pointer;
           position: relative;
@@ -222,7 +221,6 @@
           color: #3559fd;
         }
         &_currency {
-          background-image: url("/img/menu/rub.svg");
           @include bg(contain, center);
           margin: 8px 0 0 3px;
           height: 10px;
@@ -237,7 +235,6 @@
         &_icon {
           width: 24px;
           height: 18px;
-          background-image: url("/img/menu/login.svg");
         }
         &_text {
           font-size: 12px;
@@ -259,7 +256,6 @@
         cursor: pointer;
 
         &_icon {
-          background-image: url("/img/menu/tracking.svg");
           width: 24px;
           height: 14.86px;
           @include bg(contain, center);
@@ -314,28 +310,18 @@
           color: #fff;
           cursor: pointer;
           max-height: 30px;
-          
+
           @include breakpoint($phone) {
             width: 70px;
           }
-          &:after {
-            content: "";
-            background-image: url("/img/menu/zoomin.svg");
-            height: 15px;
-            width: 15px;
-            cursor: pointer;
+
+          img {
             @include absCenter();
           }
         }
       }
 
       &_hamburger {
-        background-image: url("/img/menu/hamburger.svg");
-
-        @media screen and(max-width: $last_phone) {
-          background-image: url("/img/menu/hamburger2.svg");
-        }
-
         @include bg(contain, center);
         height: 15px;
         width: 15px;
