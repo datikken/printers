@@ -17,16 +17,12 @@
       &_contacts {
         position: relative;
         &-icon {
-          background-image: url("/img/header/contact.svg");
+          background-image: url("/site/static/header/contact.svg");
           width: 30px;
           height: 30px;
           position: absolute;
-          left: -1px;
+          left: -15px;
           top: -0.2rem;
-          //safari
-          @media not all and (min-resolution: 0.001dpcm) {
-            left: -15px;
-          }
         }
         &-tel {
           font-style: normal;
@@ -56,10 +52,15 @@
         }
       }
       &_logo {
-        background-image: url("/img/header/LOGO.png");
         width: 110px;
         height: 50px;
-        @include bg(contain, center);
+        display: table-cell;
+        vertical-align: middle;
+
+        &-item {
+          margin: 0;
+          padding: 0;
+        }
       }
       &_menu {
         list-style: none;
@@ -77,6 +78,7 @@
           @include flex(center, space-between, no-wrap);
           cursor: pointer;
           position: relative;
+          margin-bottom: 0;
 
           &:nth-child(2) {
             a {

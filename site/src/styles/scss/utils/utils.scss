@@ -168,3 +168,10 @@
   text-transform: uppercase;
   color: $blue;
 }
+
+.gatsby-image-wrapper {
+    div, img {
+      margin: 0;
+      padding: 0;
+    }
+}
