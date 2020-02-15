@@ -6,9 +6,7 @@ import '../styles/scss/main.scss';
 const IndexPage = () => (
     <Layout>
         <SEO title="Home"/>
-
-        <h1>Big thread</h1>
-
+        <h1>Status: cms added</h1>
     </Layout>
 )
 
