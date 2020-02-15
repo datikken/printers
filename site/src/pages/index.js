@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import {graphql} from "gatsby";
+import '../styles/scss/main.scss';
 
 import Text from "../components/text";
 
