@@ -10,11 +10,8 @@ import PropTypes from "prop-types"
 
 import Header from "./header/header"
 import Menu from "./menu/menu"
-
 import Footer from "./footer/footer"
 import Payments from "./footer/payments"
-
-import "./layout.css"
 
 const Layout = ({ children }) => {
   return (

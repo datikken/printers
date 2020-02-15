@@ -18,7 +18,6 @@ const IndexPage = ({data: {allContentfulProduct}}) => (
         <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>
             <Image/>
         </div>
-
         <div>
             {allContentfulProduct.edges.map(({node}) => (
                 <Text

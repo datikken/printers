@@ -10,7 +10,4 @@ module.exports = function(migration) {
             .name("Banner")
             .type("Link")
             .linkType("Asset")
-
-        banners
-            .changeEditorInterface("Banner", "urlEditor", {})
 }
