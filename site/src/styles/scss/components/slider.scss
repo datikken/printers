@@ -13,7 +13,6 @@
   @include breakpoint($phone) {
     display: block;
     min-height: 450px;
-    max-width: $layoutw;
     margin-bottom: 20px;
   }
 }
@@ -50,7 +49,7 @@
   height: 30px;
   width: 30px;
   top: 51%;
-  display: none;
+  //display: none;
   @include breakpoint($phone) {
     display: block;
   }
